@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image:url(../images/login-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 20% 0;
+}
+.navbar{
+    width: 100%;
+    height: 64px;
+    margin: 0px auto;
+    background-color: rgb(22, 22, 194);
+    /* border-radius: 5px; */
+    text-transform:uppercase; 
+    padding-top: 1px;
+}
+.first{
+    width: 96vw;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 1%;
+}
+.logo-nav img{
+    width: 10%;
+    /* border: 1px solid black; */
+    float: left;
+    height: 90px;
+    margin-top: -28px;
+}
+#menu, #menu ul {
+    margin-left: 15%;
+    padding: 0;
+    list-style: none;
+
+}
+#menu li {
+    float: left;
+    padding-left:9px;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    padding: 10px 8px;
+    color: whitesmoke;
+   /* text-transform: uppercase;*/
+   /* font: bold 12px Arial, Helvetica;*/
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 11px;
+}
+#menu li:hover > a {
+    color:black;  
+}
+
+
+.middle-section{
+    background-color: rgba(238, 231, 231, 0.548);
+}
+.card{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 04px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 12px;
+    margin: 14px 0;
+
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.logo{
+    height: 175px;
+    width: 185px;
+    margin: -25px;
+}
+.header{
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+}
+.strong{
+    font-size: 15px;
+}
+.seperation{
+    border: 2px solid blue;
+}
+
+/* css for register data is success or not success */
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.tophead{
+    /* margin-bottom: 15px; */
+    /* margin-top: 1px; */
+    text-align: center;
+    width: 519%;
+    padding: 0 13px;
+}
+.tophead-color{
+    color: #ff8b26;
+    font-weight: bold;
+    margin: 8px 0 9px 0;
+}
+.textdesign{
+    text-align: center;
+    width: 180px;
+    padding: 6px;
+    margin: 7px;
+    text-align: left;
+    border-radius: 5px;
+}
+.tbl_title{
+    border: none; 
+    text-align: right; 
+    width:150px; 
+    vertical-align:middle; 
+}
+.checkbox{
+    vertical-align: text-bottom;
+    font-weight: bold; 
+    color: Black;
+}
+.register{
+    text-align: center;
+    width: 130px;
+    padding: 6px;
+    margin: 7px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.register:hover{
+    background-color: rgb(22, 22, 109);
+}
+.reset{
+    text-align: center;
+    width: 130px;
+    padding: 6px;
+    margin: 7px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: orangered;
+}
+
+
+
+
+.container{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0 0 1%;
+    background-color: white;
+}
+.text-center{
+    text-align: center;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+    
+}
+.social{
+    padding: 3% 0 6px 0;
+    background-color: white;
+}
+
+
+/* Sign In Section */
+.body-sign{
+    background-image:url(../images/body-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.8);
+}
+.center h1{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid silver;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt-field{
+    position: relative;
+    border-bottom: 1px solid #adadad;
+    margin: 20px 0;
+    /* border: none; */
+}
+form .txt-field input{
+    width: 100%;
+    padding: 2px;
+    height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    color: white;
+}
+.txt-field label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    transition:0.5s;
+}
+form .txt-field input:focus ~ label,
+form .txt-field input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+.pass{
+    color: white;
+    padding: 2px 0;
+    margin: 12px 0;
+}
+.signup_link{
+    color: white;
+    padding: 2px 2px;
+    margin: 12px 0;
+}
+.signup_link a{
+    color: blueviolet;
+    padding: 2px 0;
+    margin: 2px 2px;
+}
+form input[type="submit"]{
+    background: transparent;
+    background: blue;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
